@@ -1,9 +1,6 @@
 package: myhouse-module-example
-revision: 1
+revision: 2
 version: development
 git: myhouse-project/myhouse-module-example
 modules:
   - service/example
-default_config:
-  - service/example:
-      variable: value

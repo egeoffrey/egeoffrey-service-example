@@ -13,7 +13,7 @@
 #   optional: 
 # OUTBOUND: 
 
-from sdk.module.service import Service
+from sdk.python.module.service import Service
 
 class Example(Service):
     # What to do when initializing
