@@ -2,7 +2,7 @@ package: myhouse-module-example
 revision: 2
 version: development
 github: myhouse-project/myhouse-module-example
-dockerhub: myhouse-project/myhouse-module-example
+dockerhub: myhouseproject/myhouse-module-example
 description: 
 tags: 
 modules:
