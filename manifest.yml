@@ -1,6 +1,9 @@
 package: myhouse-module-example
 revision: 2
 version: development
-git: myhouse-project/myhouse-module-example
+github: myhouse-project/myhouse-module-example
+dockerhub: myhouse-project/myhouse-module-example
+description: 
+tags: 
 modules:
   - service/example
