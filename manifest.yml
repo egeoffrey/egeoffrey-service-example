@@ -1,9 +1,11 @@
+manifest_schema: 1
 package: myhouse-module-example
-revision: 2
+revision: 3
 version: development
 github: myhouse-project/myhouse-module-example
 dockerhub: myhouseproject/myhouse-module-example
-description: 
+description: Example module
 tags: 
 modules:
-  - service/example
+  - service/example:
+      description: Example module
