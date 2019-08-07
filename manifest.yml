@@ -1,12 +1,12 @@
 branch: development
 description: Example module
-dockerhub: myhouseproject/myhouse-module-example
-github: myhouse-project/myhouse-module-example
+dockerhub: egeoffrey/egeoffrey-module-example
+github: egeoffrey/egeoffrey-module-example
 manifest_schema: 2
 modules:
 - service/example:
     description: Example module
-package: myhouse-module-example
-revision: 4
+package: egeoffrey-module-example
+revision: 5
 tags: null
 version: 1.0

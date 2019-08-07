@@ -1,13 +1,13 @@
-### MYHOUSE ###
+### EGEOFFREY ###
 
 ### define base image
 ## the SDK version to bind to has to be passed by the builder so to select the right base image
 ARG SDK_VERSION
 ARG ARCHITECTURE
 ## Use the small alpine image if you don't have OS dependencies
-FROM myhouseproject/myhouse-sdk-alpine:${ARCHITECTURE}-${SDK_VERSION}
+FROM egeoffrey/egeoffrey-sdk-alpine:${SDK_VERSION}-${ARCHITECTURE}
 ## Use the raspian image if you have OS dependencies
-#FROM myhouseproject/myhouse-sdk-raspbian:${ARCHITECTURE}-${SDK_VERSION}
+#FROM egeoffrey/egeoffrey-sdk-raspbian:${SDK_VERSION}-${ARCHITECTURE}
 
 ### install your module's dependencies
 ## python dependencies
