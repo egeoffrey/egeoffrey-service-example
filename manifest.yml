@@ -7,6 +7,6 @@ modules:
 - service/example:
     description: Example module
 package: egeoffrey-module-example
-revision: 5
+revision: 6
 tags: null
 version: 1.0
