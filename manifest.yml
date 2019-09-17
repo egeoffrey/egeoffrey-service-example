@@ -1,12 +1,13 @@
 branch: development
-description: Example module
-dockerhub: egeoffrey/egeoffrey-module-example
-github: egeoffrey/egeoffrey-module-example
+description: Example service package that can be used as a blank template for creating
+  a new one
+dockerhub: egeoffrey/egeoffrey-service-example
+github: egeoffrey/egeoffrey-service-example
 manifest_schema: 2
 modules:
 - service/example:
     description: Example module
-package: egeoffrey-module-example
-revision: 8
+package: egeoffrey-service-example
+revision: 9
 tags: example service
 version: 1.0

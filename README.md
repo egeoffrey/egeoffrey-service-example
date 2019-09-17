@@ -1,16 +1,16 @@
-# egeoffrey-module-example
+# egeoffrey-service-example
 
-This is an eGeoffrey module package.
+This is an eGeoffrey service package.
 
 ## Description
 
-Example module.
+Example service package that can be used as a blank template for creating a new one.
 
 ## Install
 
 To install this package, run the following command from within your eGeoffrey installation directory:
 ```
-egeoffrey-cli install egeoffrey-module-example
+egeoffrey-cli install egeoffrey-service-example
 ```
 After the installation, remember to run also `egeoffrey-cli start` to ensure the Docker image of the package is effectively downloaded and started.
 To validate the installation, go and visit the *'eGeoffrey Admin'* / *'Packages'* page of your eGeoffrey instance. All the modules, default configuration files and out-of-the-box contents if any will be automatically deployed and made available.
@@ -35,16 +35,16 @@ If you are a user willing to contribute to somebody's else package, submit your 
 
 ## Build
 
-Building is required only if you are the author of the package. To build a Docker image and automatically push it to [Docker Hub](https://hub.docker.com/r/egeoffrey/egeoffrey-module-example), run the following command from within this package's directory:
+Building is required only if you are the author of the package. To build a Docker image and automatically push it to [Docker Hub](https://hub.docker.com/r/egeoffrey/egeoffrey-service-example), run the following command from within this package's directory:
 ```
-egeoffrey-cli build egeoffrey-module-example <amd64|arm>
+egeoffrey-cli build egeoffrey-service-example <amd64|arm>
 ```
 
 ## Uninstall
 
 To uninstall this package, run the following command from within your eGeoffrey installation directory:
 ```
-egeoffrey-cli uninstall egeoffrey-module-example
+egeoffrey-cli uninstall egeoffrey-service-example
 ```
 Remember to run also `egeoffrey-cli start` to ensure the changes are correctly applied.
 ## Tags
@@ -56,4 +56,4 @@ example service
 
 ## Version
 
-The version of this egeoffrey-module-example is 1.0-8 on the development branch.
+The version of this egeoffrey-service-example is 1.0-9 on the development branch.
