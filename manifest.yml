@@ -1,4 +1,4 @@
-branch: development
+branch: master
 description: Example service package that can be used as a blank template for creating
   a new one
 dockerhub: egeoffrey/egeoffrey-service-example
@@ -8,6 +8,6 @@ modules:
 - service/example:
     description: Example module
 package: egeoffrey-service-example
-revision: 9
+revision: 10
 tags: example service
 version: 1.0
