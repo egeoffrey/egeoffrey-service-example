@@ -37,7 +37,7 @@ If you are a user willing to contribute to somebody's else package, submit your 
 
 Building is required only if you are the author of the package. To build a Docker image and automatically push it to [Docker Hub](https://hub.docker.com/r/egeoffrey/egeoffrey-service-example), run the following command from within this package's directory:
 ```
-egeoffrey-cli build egeoffrey-service-example <amd64|arm>
+egeoffrey-cli build egeoffrey-service-example
 ```
 
 ## Uninstall
@@ -56,4 +56,4 @@ example service
 
 ## Version
 
-The version of this egeoffrey-service-example is 1.0-10 on the master branch.
+The version of this egeoffrey-service-example is 1.0-11 on the master branch.
