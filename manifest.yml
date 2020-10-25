@@ -8,6 +8,6 @@ modules:
 - service/example:
     description: Example module
 package: egeoffrey-service-example
-revision: 11
+revision: 12
 tags: example service
 version: 1.0
